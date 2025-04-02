@@ -1,72 +1,72 @@
 {
+    "100": [
+        {
+            "account_number": 10000,
+            "balance": -1876.9500000000041
+        },
+        {
+            "account_number": 10001,
+            "balance": -3200.480000000002
+        },
+        {
+            "account_number": 10002,
+            "balance": 3453.330000000002
+        }
+    ],
+    "101": [
+        {
+            "account_number": 10000,
+            "balance": -8561.880000000001
+        },
+        {
+            "account_number": 10001,
+            "balance": -36562.649999999994
+        },
+        {
+            "account_number": 10002,
+            "balance": -7660.319999999996
+        }
+    ],
+    "102": [
+        {
+            "account_number": 10000,
+            "balance": -1591.1100000000065
+        },
+        {
+            "account_number": 10001,
+            "balance": 8325.15
+        },
+        {
+            "account_number": 10002,
+            "balance": -6560.690000000006
+        }
+    ],
     "103": [
         {
             "account_number": 10000,
             "balance": -9676.980000000012
         },
         {
-            "account_number": 10002,
-            "balance": 1705.9900000000025
-        },
-        {
             "account_number": 10001,
             "balance": 6150.25
-        }
-    ],
-    "109": [
-        {
-            "account_number": 10000,
-            "balance": -198.73999999999864
-        },
-        {
-            "account_number": 10001,
-            "balance": 6367.26
         },
         {
             "account_number": 10002,
-            "balance": -9322.700000000004
+            "balance": 1705.9900000000025
         }
     ],
-    "117": [
+    "104": [
         {
             "account_number": 10000,
-            "balance": 5018.880000000003
-        },
-        {
-            "account_number": 10002,
-            "balance": -962.0400000000005
+            "balance": 27051.3
         },
         {
             "account_number": 10001,
-            "balance": -2830.6600000000026
-        }
-    ],
-    "106": [
-        {
-            "account_number": 10001,
-            "balance": -3984.0200000000027
+            "balance": -3566.2400000000025
         },
         {
             "account_number": 10002,
-            "balance": 3289.2299999999946
-        },
-        {
-            "account_number": 10000,
-            "balance": -19778.229999999974
-        }
-    ],
-    "119": [
-        {
-            "account_number": 10001,
-            "balance": -2699.169999999994
-        },
-        {
-            "account_number": 10002,
-            "balance": 8114.720000000003
-        },
-        {
-            "account_number": 10000,
-            "balance": -3786.9299999999985
+            "balance": 4524.039999999998
         }
     ],
     "105": [
@@ -75,110 +75,26 @@
             "balance": -319.7899999999954
         },
         {
-            "account_number": 10002,
-            "balance": 2754.8200000000015
-        },
-        {
             "account_number": 10001,
             "balance": -723.590000000001
-        }
-    ],
-    "116": [
-        {
-            "account_number": 10002,
-            "balance": -3846.789999999998
-        },
-        {
-            "account_number": 10000,
-            "balance": 5016.670000000001
-        },
-        {
-            "account_number": 10001,
-            "balance": -5913.230000000001
-        }
-    ],
-    "115": [
-        {
-            "account_number": 10002,
-            "balance": -17671.959999999995
-        },
-        {
-            "account_number": 10001,
-            "balance": 11764.489999999996
-        },
-        {
-            "account_number": 10000,
-            "balance": -1562.829999999998
-        }
-    ],
-    "110": [
-        {
-            "account_number": 10002,
-            "balance": 1770.15
-        },
-        {
-            "account_number": 10001,
-            "balance": -9784.289999999999
-        },
-        {
-            "account_number": 10000,
-            "balance": 13842.38
-        }
-    ],
-    "118": [
-        {
-            "account_number": 10001,
-            "balance": 3478.5999999999995
         },
         {
             "account_number": 10002,
-            "balance": 5471.770000000004
-        },
-        {
-            "account_number": 10000,
-            "balance": 3446.239999999997
+            "balance": 2754.8200000000015
         }
     ],
-    "113": [
+    "106": [
         {
-            "account_number": 10002,
-            "balance": -285.6599999999968
+            "account_number": 10000,
+            "balance": -19778.229999999974
         },
         {
             "account_number": 10001,
-            "balance": -3184.09
-        },
-        {
-            "account_number": 10000,
-            "balance": -2399.0899999999956
-        }
-    ],
-    "114": [
-        {
-            "account_number": 10000,
-            "balance": 16836.760000000013
+            "balance": -3984.0200000000027
         },
         {
             "account_number": 10002,
-            "balance": -12938.400000000016
-        },
-        {
-            "account_number": 10001,
-            "balance": 3113.190000000007
-        }
-    ],
-    "102": [
-        {
-            "account_number": 10002,
-            "balance": -6560.690000000006
-        },
-        {
-            "account_number": 10000,
-            "balance": -1591.1100000000065
-        },
-        {
-            "account_number": 10001,
-            "balance": 8325.15
+            "balance": 3289.2299999999946
         }
     ],
     "107": [
@@ -195,74 +111,46 @@
             "balance": -10029.530000000006
         }
     ],
-    "112": [
-        {
-            "account_number": 10002,
-            "balance": -15321.789999999986
-        },
-        {
-            "account_number": 10000,
-            "balance": 14558.929999999991
-        },
-        {
-            "account_number": 10001,
-            "balance": -1577.300000000001
-        }
-    ],
-    "104": [
-        {
-            "account_number": 10001,
-            "balance": -3566.2400000000025
-        },
-        {
-            "account_number": 10002,
-            "balance": 4524.039999999998
-        },
-        {
-            "account_number": 10000,
-            "balance": 27051.3
-        }
-    ],
     "108": [
         {
             "account_number": 10000,
             "balance": 2084.4499999999966
         },
         {
-            "account_number": 10002,
-            "balance": 4502.639999999995
-        },
-        {
             "account_number": 10001,
             "balance": -6902.709999999997
-        }
-    ],
-    "101": [
-        {
-            "account_number": 10000,
-            "balance": -8561.880000000001
         },
         {
             "account_number": 10002,
-            "balance": -7660.319999999996
-        },
-        {
-            "account_number": 10001,
-            "balance": -36562.649999999994
+            "balance": 4502.639999999995
         }
     ],
-    "100": [
+    "109": [
         {
             "account_number": 10000,
-            "balance": -1876.9500000000041
+            "balance": -198.73999999999864
         },
         {
             "account_number": 10001,
-            "balance": -3200.480000000002
+            "balance": 6367.26
         },
         {
             "account_number": 10002,
-            "balance": 3453.330000000002
+            "balance": -9322.700000000004
+        }
+    ],
+    "110": [
+        {
+            "account_number": 10000,
+            "balance": 13842.38
+        },
+        {
+            "account_number": 10001,
+            "balance": -9784.289999999999
+        },
+        {
+            "account_number": 10002,
+            "balance": 1770.15
         }
     ],
     "111": [
@@ -277,6 +165,118 @@
         {
             "account_number": 10002,
             "balance": 319.33000000000027
+        }
+    ],
+    "112": [
+        {
+            "account_number": 10000,
+            "balance": 14558.929999999991
+        },
+        {
+            "account_number": 10001,
+            "balance": -1577.300000000001
+        },
+        {
+            "account_number": 10002,
+            "balance": -15321.789999999986
+        }
+    ],
+    "113": [
+        {
+            "account_number": 10000,
+            "balance": -2399.0899999999956
+        },
+        {
+            "account_number": 10001,
+            "balance": -3184.09
+        },
+        {
+            "account_number": 10002,
+            "balance": -285.6599999999968
+        }
+    ],
+    "114": [
+        {
+            "account_number": 10000,
+            "balance": 16836.760000000013
+        },
+        {
+            "account_number": 10001,
+            "balance": 3113.190000000007
+        },
+        {
+            "account_number": 10002,
+            "balance": -12938.400000000016
+        }
+    ],
+    "115": [
+        {
+            "account_number": 10000,
+            "balance": -1562.829999999998
+        },
+        {
+            "account_number": 10001,
+            "balance": 11764.489999999996
+        },
+        {
+            "account_number": 10002,
+            "balance": -17671.959999999995
+        }
+    ],
+    "116": [
+        {
+            "account_number": 10000,
+            "balance": 5016.670000000001
+        },
+        {
+            "account_number": 10001,
+            "balance": -5913.230000000001
+        },
+        {
+            "account_number": 10002,
+            "balance": -3846.789999999998
+        }
+    ],
+    "117": [
+        {
+            "account_number": 10000,
+            "balance": 5018.880000000003
+        },
+        {
+            "account_number": 10001,
+            "balance": -2830.6600000000026
+        },
+        {
+            "account_number": 10002,
+            "balance": -962.0400000000005
+        }
+    ],
+    "118": [
+        {
+            "account_number": 10000,
+            "balance": 3446.239999999997
+        },
+        {
+            "account_number": 10001,
+            "balance": 3478.5999999999995
+        },
+        {
+            "account_number": 10002,
+            "balance": 5471.770000000004
+        }
+    ],
+    "119": [
+        {
+            "account_number": 10000,
+            "balance": -3786.9299999999985
+        },
+        {
+            "account_number": 10001,
+            "balance": -2699.169999999994
+        },
+        {
+            "account_number": 10002,
+            "balance": 8114.720000000003
         }
     ],
     "120": [

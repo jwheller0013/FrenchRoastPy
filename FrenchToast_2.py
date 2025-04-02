@@ -41,7 +41,12 @@ with open('resources/transactions.csv', 'r', newline='') as file:
                 new_account["balance"] += amount
             customer[cus].append(new_account)
 
-    print(customer)
+    # print(customer)
+
+sorted_customer = dict(sorted(customer.items()))
+
+for customer_key in sorted_customer:
+    sorted_customer[customer_key] = sorted(sorted_customer[customer_key], key=lambda x: x['account_number'])
 
 with open('customers.json', 'w') as json_file:
-    json.dump(customer, json_file, indent=4)
+    json.dump(sorted_customer, json_file, indent=4)
