@@ -1,4 +1,5 @@
 import csv
+import json
 
 transaction_template = {
     "account_number": 0,
@@ -41,3 +42,6 @@ with open('resources/transactions.csv', 'r', newline='') as file:
             customer[cus].append(new_account)
 
     print(customer)
+
+with open('customers.json', 'w') as json_file:
+    json.dump(customer, json_file, indent=4)
