@@ -21,10 +21,10 @@ with open('resources/transactions.csv', 'r', newline='') as file:
         transType = line[3].strip().lower()
         amount = float(line[4])
         if customer.get(cus) is None:
-            customer[cus] = []
+            customer[cus] = {"id": cus, "accounts": []}
 
         account_exists = False
-        for account_info in customer[cus]:
+        for account_info in customer[cus]["accounts"]:
             if account_info["account_number"] == cusID:
                 account_exists = True
                 if transType == 'withdrawal':
@@ -39,14 +39,18 @@ with open('resources/transactions.csv', 'r', newline='') as file:
                 new_account["balance"] -= amount
             elif transType == 'deposit':
                 new_account["balance"] += amount
-            customer[cus].append(new_account)
+            customer[cus]["accounts"].append(new_account)
 
     # print(customer)
 
-sorted_customer = dict(sorted(customer.items()))
+# sorted_customer = dict(sorted(customer.items()))
+#
+# for customer_key in sorted_customer:
+#     sorted_customer[customer_key] = sorted(sorted_customer[customer_key], key=lambda x: x['account_number'])
 
-for customer_key in sorted_customer:
-    sorted_customer[customer_key] = sorted(sorted_customer[customer_key], key=lambda x: x['account_number'])
+    for customer_info in customer.values():
+        customer_info["accounts"].sort(key=lambda x: x["account_number"])
 
-with open('customers.json', 'w') as json_file:
-    json.dump(sorted_customer, json_file, indent=4)
+
+    with open('customers2.json', 'w') as json_file:
+        json.dump(list(customer.values()), json_file, indent=4)
